@@ -1,0 +1,8 @@
+#This file should have textual descriptions of each of the tables in the database and their columns. Example below:
+TABLE customers
+The customers table represents information about customers. Each row in the table describes a single customer, including their unique identifier, name, address, and phone number. The structure is as follows:
+- id: A SERIAL column that serves as the primary key. It provides a unique, auto-incrementing identifier for each customer. It describes the unique identifier for a customer.
+- name: A VARCHAR(100) column that stores the name of the customer with a maximum length of 100 characters. It describes the full name of the customer.
+- address: A TEXT column that stores the address of the customer. This column has no predefined length limit. It describes the physical or mailing address of the customer.
+- phone: An INT column that stores the phone number of the customer as an integer. It describes the contact phone number of the customer.
+--END--
